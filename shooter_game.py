@@ -6,6 +6,7 @@ from random import randint
 _SCREEN_WIDTH = 1024    
 _SCREEN_HEIGHT = 720
 window = display.set_mode((_SCREEN_WIDTH, _SCREEN_HEIGHT))
+display.set_caption('Alien shooting')
 clock = time.Clock()
 font.init()
 
